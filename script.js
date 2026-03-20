@@ -12,3 +12,33 @@ function verify(){
   }
 
 }
+
+function verify(){
+
+var id = document.getElementById("cert").value.trim();
+
+var data = {
+  "EMS-30752": {
+    name: "KARTHIKEYAN.T",
+    course: "Lead Auditor",
+    issueDate: "10/03/2026",
+    company: "QMSQC PVT LTD",
+    status: "Valid"
+  },
+};
+
+if(data[id]){
+document.getElementById("result").innerHTML =
+"Certificate Verified ✅ <br><br>" +
+"Name: " + data[id].name + "<br>" +
+"Course: " + data[id].course + "<br>" +
+"Certificate Number: " + id + "<br>" +
+"Issue date: " + data[id].issueDate + "<br>" +
+"Company: " + data[id].company + "<br>" +
+"Status: " + data[id].status;
+}
+else{
+document.getElementById("result").innerHTML="Invalid Certificate ❌";
+}
+
+}

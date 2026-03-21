@@ -20,13 +20,3 @@
 
 </body>
 </html>
-<script>
-const params = new URLSearchParams(window.location.search);
-const certId = params.get("id");
-
-if(certId){
-document.getElementById("cert").value = certId;
-verify();
-}
-</script>
-<button onclick="verifyCertificate()">Verify</button>

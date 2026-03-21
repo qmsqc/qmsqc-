@@ -22,7 +22,6 @@ var data = {
     name: "KARTHIKEYAN.T",
     course: "Lead Auditor",
     issueDate: "10/03/2026",
-    company: "QMSQC PVT LTD",
     status: "Valid"
   },
 };
@@ -34,7 +33,6 @@ document.getElementById("result").innerHTML =
 "Course: " + data[id].course + "<br>" +
 "Certificate Number: " + id + "<br>" +
 "Issue date: " + data[id].issueDate + "<br>" +
-"Company: " + data[id].company + "<br>" +
 "Status: " + data[id].status;
 }
 else{

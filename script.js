@@ -18,10 +18,10 @@ function verify(){
 var id = document.getElementById("cert").value.trim();
 
 var data = {
-  "EMS-30752": {
-    name: "KARTHIKEYAN.T",
+  "Q-2025-16401": {
+    name: "ANANTHA PRABU K",
     course: "Lead Auditor",
-    issueDate: "10/03/2026",
+    issueDate: "19/03/2026",
     status: "Valid"
   },
 };

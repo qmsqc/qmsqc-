@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Certificate Verification</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <!-- LOGO -->
+  <img src="logo.jpg" class="logo">
+
+  <!-- COMPANY NAME -->
+  <h1 class="company-name">
+    QMSQC INDUSTRIAL TRAINING & CERTIFICATION PVT.,LTD.,
+  </h1>
+
+  <!-- HEADING -->
+  <h2>Verify the authenticity of a certified document</h2>
+
+  <!-- CARD -->
+  <div class="card">
+
+    <input type="text" id="cert" placeholder="Enter Certificate Number">
+
+    <button onclick="verify()">Verify</button>
+
+    <div id="result"></div>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+<script>
+const params = new URLSearchParams(window.location.search);
+const certId = params.get("id");
+
+if(certId){
+  document.getElementById("cert").value = certId;
+}
+</script>
+
+</body>
+</html>

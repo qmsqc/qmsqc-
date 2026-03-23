@@ -2,15 +2,15 @@ function verify() {
   var id = document.getElementById("cert").value.trim().toUpperCase();
 
   var data = {
-    "EMS-30736": {
+    "OHS-29700": {
       name: "DEEPAK GUPTA",
       course: "Lead Auditor",
-      issueDate: "16-03-2026",
+      issueDate: "30-01-2026",
       status: "Valid"
 
 
     }
-    //   EMS-30736 intentionally not included → will show Invalid
+    //  OHS-29700  intentionally not included → will show Invalid
 
   };
 

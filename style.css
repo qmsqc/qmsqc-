@@ -9,16 +9,15 @@ body {
   padding: 20px;
 }
 
-/* LOGO - PASSPORT SIZE */
+/* 🔥 LOGO - ORIGINAL PASSPORT SHAPE */
 .logo {
-  width: 200px;
-  height: 200px;
-  object-fit: contain;
+  width: 180px;          /* size control */
+  height: auto;          /* ORIGINAL SHAPE maintain */
   display: block;
   margin: 20px auto;
-  background: #fff;
-  padding: 10px;
-  border-radius: 10px;
+  border-radius: 12px;   /* rounded edges */
+  background: #ffffff;
+  padding: 8px;
 }
 
 /* COMPANY NAME */

@@ -8,25 +8,34 @@
 
 <body>
 
-<h2>Certificate Verification</h2>
+<div class="container">
 
-<input type="text" id="cert" placeholder="Enter Certificate Number">
+  <img src="logo.png" class="logo">
 
-<button onclick="verify()">Verify</button>
+  <h2>Verify the authenticity of a certified document</h2>
 
-<p id="result"></p>
+  <div class="card">
+
+    <input type="text" id="cert" placeholder="Enter Certificate Number">
+
+    <button onclick="verify()">Verify</button>
+
+    <p id="result"></p>
+
+  </div>
+
+</div>
 
 <script src="script.js"></script>
 
-</body>
-</html>
 <script>
 const params = new URLSearchParams(window.location.search);
 const certId = params.get("id");
 
 if(certId){
-document.getElementById("cert").value = certId;
-verify();
+  document.getElementById("cert").value = certId;
 }
 </script>
-<button onclick="verifyCertificate()">Verify</button>
+
+</body>
+</html>

@@ -8,7 +8,7 @@ function verify() {
       issueDate: "30-01-2026",
       status: "Valid"
     }
-    // Q-2025-16323 intentionally not included → will show Invalid
+    //  OHS-29704 intentionally not included → will show Invalid
   };
 
   if(data[id]){

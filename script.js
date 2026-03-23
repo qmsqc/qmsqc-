@@ -2,10 +2,10 @@ function verify() {
   var id = document.getElementById("cert").value.trim().toUpperCase();
 
   var data = {
-    "EMS-30734": {
-      name: "RAKESH J",
+    "OHS-29704": {
+      name: "C.P SIVARAMAN",
       course: "Lead Auditor",
-      issueDate: "16-03-2026",
+      issueDate: "30-01-2026",
       status: "Valid"
     }
     // Q-2025-16323 intentionally not included → will show Invalid

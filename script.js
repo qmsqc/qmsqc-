@@ -2,13 +2,13 @@ function verify() {
   var id = document.getElementById("cert").value.trim().toUpperCase();
 
   var data = {
-    "Q-2025-16401": {
-      name: "ANANTHA PRABU K",
+    "Q-2025-16323": {
+      name: "DHONI SRINIVAS",
       course: "Lead Auditor",
-      issueDate: "19/03/2026",
+      issueDate: "22/07/2025",
       status: "Valid"
     }
-    // Q-2025-1641 intentionally not included → will show Invalid
+    // Q-2025-16323 intentionally not included → will show Invalid
   };
 
   if(data[id]){
